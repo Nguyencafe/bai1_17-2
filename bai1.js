@@ -42,3 +42,5 @@ console.log(`Có sinh viên nào dưới 18 tuổi không? ${hasUnder18 ? 'Có' 
 // Sử dụng every để kiểm tra cả lớp có đầy đủ tên hay không?
 const allHaveNames = students.every(student => student.name.trim() !== '');
 console.log(`Cả lớp có đầy đủ tên hay không? ${allHaveNames ? 'Có' : 'Không'}`);
+
+module.exports = students;
